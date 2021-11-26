@@ -5,14 +5,14 @@ public class Exam01 {
 
 	public static void main(String[] args) {
 
-		// ½Ç½À : ¼ö¹Ú°ÔÀÓ
-		// Â¦¼ö¸é Â¦¼ö ¼ö´ë·Î ¼ö¹ÚÀÌ Ãâ·Â, È¦¼ö¸é ¼ö´ë·Î ¼ö,¹Ú ÀÌ ¹İº¹(ex 3ÀÌ¸é ¼ö¹Ú¼ö)
+		// ì‹¤ìŠµ : ìˆ˜ë°•ê²Œì„
+		// ì§ìˆ˜ë©´ ì§ìˆ˜ ìˆ˜ëŒ€ë¡œ ìˆ˜ë°•ì´ ì¶œë ¥, í™€ìˆ˜ë©´ ìˆ˜ëŒ€ë¡œ ìˆ˜,ë°• ì´ ë°˜ë³µ(ex 3ì´ë©´ ìˆ˜ë°•ìˆ˜)
 
-		// 1¹ø ¹æ¹ı
+		// 1ë²ˆ ë°©ë²•
 //		Scanner sc = new Scanner(System.in);
-//		String array[] = { "¼ö", "¹Ú" };
-//		System.out.println("==== ¼ö¹Ú °ÔÀÓ strat ====");
-//		System.out.print("¼ıÀÚ¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä : ");
+//		String array[] = { "ìˆ˜", "ë°•" };
+//		System.out.println("==== ìˆ˜ë°• ê²Œì„ strat ====");
+//		System.out.print("ìˆ«ìë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš” : ");
 //		int num = sc.nextInt();
 //
 //		for (int i = 1; i <= num; i++) {
@@ -24,27 +24,28 @@ public class Exam01 {
 //			
 //		}
 
-		// 2¹ø ¹æ¹ı
-		// »ç¿ëÀÚ°¡ ¼ıÀÚ¸¦ ÀÔ·ÂÇÏ¸é, ÀÔ·ÂÇÑ ¼ıÀÚ¿¡ ¸Â°Ô ¹è¿­ »ı¼º
-		// ¹è¿­ ¾È¿¡´Â ¼ö, ¹Ú ÀÌ¶ó´Â ±ÛÀÚ°¡ ¼ø¼­´ë·Î µé¾î°¡µµ·Ï »ı¼º
+		// 2ë²ˆ ë°©ë²•
+		// ì‚¬ìš©ìê°€ ìˆ«ìë¥¼ ì…ë ¥í•˜ë©´, ì…ë ¥í•œ ìˆ«ìì— ë§ê²Œ ë°°ì—´ ìƒì„±
+		// ë°°ì—´ ì•ˆì—ëŠ” ìˆ˜, ë°• ì´ë¼ëŠ” ê¸€ìê°€ ìˆœì„œëŒ€ë¡œ ë“¤ì–´ê°€ë„ë¡ ìƒì„±
 		Scanner sc = new Scanner(System.in);
-		System.out.println("==== ¼ö¹Ú °ÔÀÓ strat ====");
-		System.out.print("¼ıÀÚ¸¦ ÀÔ·ÂÇØÁÖ¼¼¿ä : ");
+		System.out.println("==== ìˆ˜ë°• ê²Œì„ strat ====");
+		System.out.print("ìˆ«ìë¥¼ ì…ë ¥í•´ì£¼ì„¸ìš” : ");
 		int num = sc.nextInt();
 		String[] ary = new String[num];
 
 		for (int i = 0; i < ary.length; i++) {
 			if (i % 2 == 0) {
-				ary[i] = "¼ö";
+				ary[i] = "ìˆ˜";
 			}else
-				ary[i] = "¹Ú";
+				ary[i] = "ë°•";
 		}
 //		for(int i = 0; i < num; i++) {
 //			System.out.print(ary[i]);
 //		}
 		
-		System.out.println(Arrays.toString(ary)); // ¹è¿­¿¡ ÀÖ´Â ¸ğµç µ¥ÀÌÅÍ¸¦ º¸¿©ÁÖ´Â ±â´É(import ÇÏ°í »ç¿ëÇÏ´Â °Í.)
+		System.out.println(Arrays.toString(ary)); // ë°°ì—´ì— ìˆëŠ” ëª¨ë“  ë°ì´í„°ë¥¼ ë³´ì—¬ì£¼ëŠ” ê¸°ëŠ¥(import í•˜ê³  ì‚¬ìš©í•˜ëŠ” ê²ƒ.)
 		
 	}
 
 }
+//
